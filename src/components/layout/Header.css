@@ -1,1 +1,18 @@
-/* test */
+select {
+    border: none;
+    font-size: 16px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
