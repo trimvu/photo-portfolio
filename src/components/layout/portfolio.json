@@ -2,19 +2,23 @@
     "portfolio": [
         {
             "order": 1,
-            "name": "Landscape"
+            "name": "Landscape",
+            "lowercase": "landscape"
         },
         {
             "order": 2,
-            "name": "Street"
+            "name": "Street",
+            "lowercase": "street"
         },
         {
             "order": 3,
-            "name": "Miscellaneous"
+            "name": "Miscellaneous",
+            "lowercase": "miscellaneous"
         },
         {
             "order": 4,
-            "name": "Teddy"
+            "name": "Teddy",
+            "lowercase": "Teddy"
         }
     ]
 }
