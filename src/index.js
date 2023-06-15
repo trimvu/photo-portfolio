@@ -7,10 +7,10 @@ import BaseLayout from './components/layout/BaseLayout';
 
 import About from './components/About'
 import Contact from './components/Contact'
-import Landscape from './components/portfolio/Landscape'
-import Miscellaneous from './components/portfolio/Miscellaneous'
-import Street from './components/portfolio/Street'
-import Teddy from './components/portfolio/Teddy'
+import Landscape from './components/portfolio/landscape/Landscape'
+import Miscellaneous from './components/portfolio/miscellaneous/Miscellaneous'
+import Street from './components/portfolio/street/Street'
+import Teddy from './components/portfolio/Teddy/Teddy'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

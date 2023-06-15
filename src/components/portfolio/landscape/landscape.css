@@ -1,0 +1,10 @@
+/* img {
+    height: 20vh;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+} */
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}

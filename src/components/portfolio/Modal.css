@@ -1,0 +1,35 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-image {
+    /* max-width: 80%;
+    max-height: 80%; */
+    width: 70vw;
+    height: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* ImageComponent.css */
+  
+  .thumbnail-image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+  }
