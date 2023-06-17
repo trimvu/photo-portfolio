@@ -11,6 +11,7 @@ import Landscape from './components/portfolio/landscape/Landscape'
 import Miscellaneous from './components/portfolio/miscellaneous/Miscellaneous'
 import Street from './components/portfolio/street/Street'
 import Teddy from './components/portfolio/Teddy/Teddy'
+import Portfolio from './components/portfolio/Portfolio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
           <Route path='/' element={<App />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/landscape' element={<Landscape />} />
           <Route path='/miscellaneous' element={<Miscellaneous />} />
           <Route path='/street' element={<Street />} />

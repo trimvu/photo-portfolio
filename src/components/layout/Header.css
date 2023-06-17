@@ -46,6 +46,10 @@ ul {
     font-family: inherit;
     margin: 0;
   }
+
+  .dropdown > .dropbtn > .portbtn {
+    padding: 0px 0px;
+  }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;

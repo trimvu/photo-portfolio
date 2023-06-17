@@ -50,8 +50,11 @@ const Header = () => {
         <div className="navbar">
   <a href="/">Home</a>
   <div className="dropdown">
-    <button className="dropbtn">Portfolio 
-      <i className="fa fa-caret-down"></i>
+    <button className="dropbtn">
+      <a href='/portfolio' className='portbtn'>
+        Portfolio 
+        <i className="fa fa-caret-down"></i>
+      </a>
     </button>
     <div className="dropdown-content">
       <a href="/landscape">Landscape</a>

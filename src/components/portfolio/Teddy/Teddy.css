@@ -2,3 +2,9 @@ li {
     list-style-type: none;
     display: inline-block;
 }
+
+.contain-teddy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

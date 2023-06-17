@@ -9,6 +9,8 @@ import Image from '../Image'
 
 const Teddy = () => {
 
+    console.log(Teddy_pics.length)
+
     const [modalOpen, setModalOpen] = useState(false);
     const [id, setId] = useState()
 
@@ -23,7 +25,7 @@ const Teddy = () => {
     };
 
     return (
-        <div>
+        <div className='contain-teddy'>
             Teddy
 
             <ul>
