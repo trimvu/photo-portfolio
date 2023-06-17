@@ -11,8 +11,12 @@ const Image = ({ info }) => {
 
     // console.log(enlarge)
 
-    const handleImageClick = () => {
-        setModalOpen(true);
+    const handleClick = () => {
+        if (modalOpen === false) {
+            setModalOpen(!modalOpen);
+        } else if (modalOpen === true) {
+            setModalOpen(!modalOpen)
+        }
     };
     
     const closeModal = () => {
@@ -22,10 +26,10 @@ const Image = ({ info }) => {
     <div>
         {/* Image */}
 
-        <img className='thumb' key={info.id} id={info.id} src={info.file} alt={info.description} onClick={handleImageClick}/>
+        <img className='thumb' key={info.id} id={info.id} src={info.file} alt={info.description} onClick={handleClick}/>
 
         {modalOpen && (
-            <Modal imageUrl={info.file} closeModal={closeModal} />
+            <Modal info={info} handleClick={handleClick} modalOpen={modalOpen} />
         )}
     </div>
   )

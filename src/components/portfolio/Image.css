@@ -1,16 +1,16 @@
 .thumb {
-    width: 300px;
+    width: 400px;
     height: auto;
-    cursor: pointer;
-    border-radius: 100px;
-    transition: 0.25s;
-    margin: 100px;
+    cursor: zoom-in;
+    border-radius: 100rem;
+    transition: 0.2s;
+    margin: 50px;
 }
 
 .thumb:hover {
     width: 500px;
     height: auto;
-    opacity: 50%;
+    opacity: 75%;
     border-radius: 50px;
     margin: 0px;
     padding: 0px;

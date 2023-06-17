@@ -2,12 +2,14 @@ import React, { useEffect } from 'react';
 
 import "./Modal.css"
 
-const Modal = ({ id, imageUrl, closeModal }) => {
+const Modal = ({ id, info, handleClick }) => {
+
+  // console.log(modalOpen)
 
   useEffect(() => {
     function handleEscape(e) {
       if (e.code === 'Escape') {
-        closeModal()
+        handleClick()
       }
     }
 
@@ -16,9 +18,9 @@ const Modal = ({ id, imageUrl, closeModal }) => {
   }, [])
 
   return (
-    <div id={id} className="modal">
-      <img className="modal-image" src={imageUrl} alt="Enlarged" />
-      <span className="close" onClick={closeModal}>&times;</span>
+    <div id={id} className='modal'>
+      <img className="modal-image" src={info.file} alt="Enlarged" />
+      <span className="close" onClick={handleClick}>&times;</span>
     </div>
   );
 };
