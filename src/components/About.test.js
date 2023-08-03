@@ -1,29 +1,29 @@
 import React from 'react'
 import { fireEvent, render} from '@testing-library/react'
-import App from './App'
+import About from './About'
 import { MemoryRouter } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
 
-describe('home page features', () => {
+describe('about page features', () => {
     const history = createMemoryHistory();
     const { getByTestId } = render(
         <MemoryRouter history={history}>
-            <App />
+            <About />
         </MemoryRouter>
     );
 
-    const enterButton = getByTestId('enter-button')
+    const contactButton = getByTestId('contact-button')
     
     test('renders a button that generates brings you to home page', () => {
         
-        expect(enterButton).toBeInTheDocument()
+        expect(contactButton).toBeInTheDocument()
 
     })
 
     test('navigate to the /home page', () => {
-        fireEvent.click(enterButton)
+        fireEvent.click(contactButton)
         setTimeout(() => {
-            expect(history.location.pathname).toBe('/home');
+            expect(history.location.pathname).toBe('/contact');
         }, 100);
     })
 

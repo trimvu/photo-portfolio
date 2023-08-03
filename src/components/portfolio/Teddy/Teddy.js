@@ -25,12 +25,17 @@ const Teddy = () => {
     };
 
     return (
-        <div className='contain-teddy'>
-            Teddy
+        <div className='contain-teddy page-height'>
+            <br />
+            <h1>Teddy</h1>
 
+            <h3>Photos taken from: </h3>
+            <p>22 August 2020 - </p>
+            <p>These are photos that I have taken of my dog, Teddy. He is my pride and joy.</p>
+            {"\n"}
             <ul>
                 {
-                    Teddy_pics && Teddy_pics.map(info => {
+                    Teddy_pics && Teddy_pics.map((info, index) => {
                         return (
                             <li key={info.id}>
                                 {/* {info.title} */}
@@ -39,7 +44,7 @@ const Teddy = () => {
 
                                 {/* <img key={info.id} id={info.id} src={info.file} alt={info.description} onClick={() => {setModalOpen(true); setId(info.id); console.log(info.id)}} /> */}
 
-                                <Image info={info} />
+                                <Image info={info} index={index} images={Teddy_pics} />
 
                                 {/* {modalOpen && (
                                     <Modal id={id} imageUrl={info.file} closeModal={closeModal} />

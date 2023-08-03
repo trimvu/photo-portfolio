@@ -9,14 +9,19 @@
     align-items: center;
     justify-content: center;
     animation: fadeIn 0.25s ease-in;
-    /* opacity: 1; */
+    opacity: 1;
     /* transition: opacity 3s ease-in-out; */
   }
 
-  .modal.closed {
-    animation: fadeOut 3s linear;
-    pointer-events: none;
-  }
+  /* .modal::after {
+    transition: fadeOut 3s ease-in-out;
+    opacity: 0;
+  } */
+
+  /* .closed {
+    opacity: 0;
+    transition: fadeOut 3s ease-in-out;
+  } */
 
 @keyframes fadeIn {
     0% {
@@ -49,16 +54,16 @@ to {transform:scale(1)}
   .modal-image {
     /* max-width: 80%;
     max-height: 80%; */
-    width: 70vw;
-    height: auto;
+    max-width: 70vw;
+    max-height: 80vh;
     animation: zoom 0.25s linear;
   }
   
-  .close {
+  .close-btn {
     position: absolute;
     top: 10px;
-    right: 10px;
-    font-size: 24px;
+    right: 100px;
+    font-size: 100px;
     cursor: pointer;
     color: #fff;
   }
@@ -74,8 +79,148 @@ to {transform:scale(1)}
   
   /* ImageComponent.css */
   
-  .thumbnail-image {
+  /* .thumbnail-image {
     width: 200px;
     height: auto;
     cursor: pointer;
-  }
+  } */
+
+
+  @import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.25s ease-in;
+  opacity: 1;
+}
+
+.carousel {
+  overflow: hidden;
+  /* width: 700px; */
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.6s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 490px; */
+  /* background-color: #fff; */
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: #617d98;
+}
+.carousel-img {
+  max-width: 100%;
+  max-height: 80vh;
+  /* padding: 0 20px 0 20px; */
+}
+
+.carousel-btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.change-btn {
+  width: 100%;
+
+}
+
+.left-btn {
+  /* background: none; */
+  border: none;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background:transparent;
+  border: none;
+  font-size:100px;
+  height: 100vh;
+  color: #fff;
+  text-align: start;
+}
+
+.right-btn {
+  /* background: none; */
+  border: none;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  border: none;
+  font-size:100px;
+  height: 100vh;
+  color: #fff;
+  text-align: end;
+}
+
+.indicators {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* margin-top: 20px; */
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory ;
+  width: 100%;
+}
+
+.indicator-pics {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.mini-pics {
+  color: #26343f;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.current-mini-pics > img {
+  color: #ffffff;
+  max-width: 200px;
+  max-height: 150px;
+  /* transition:linear 0.6s; */
+  scroll-snap-align: center;
+}
+
+
+.mini {
+  max-width: 100px;
+  max-height: 100px;
+}

@@ -1,6 +1,6 @@
 .thumb {
-    width: 400px;
-    height: auto;
+    max-width: 400px;
+    max-height: 300px;
     cursor: zoom-in;
     border-radius: 100rem;
     transition: 0.2s;
@@ -8,9 +8,9 @@
 }
 
 .thumb:hover {
-    width: 500px;
-    height: auto;
-    opacity: 75%;
+    max-width: 500px;
+    max-height: 400px;
+    /* opacity: 75%; */
     border-radius: 50px;
     margin: 0px;
     padding: 0px;
