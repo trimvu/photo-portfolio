@@ -1,202 +1,121 @@
 [
     {
         "id": "T001",
+        "date": "22 August 2020",
+        "day": 22,
+        "month": 8,
+        "year": 2020,
+        "file": "images/Teddy/TRI_4326.jpg",
+        "title": "Classy Teddy",
+        "description": "Teddy looking classy as a young pup.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/3.2",
+            "exposure_time": "1/250",
+            "ISO": "1250",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "T002",
+        "date": "22 August 2020",
+        "day": 22,
+        "month": 8,
+        "year": 2020,
+        "file": "images/Teddy/TRI_4327.jpg",
+        "title": "Goofy Teddy",
+        "description": "Teddy looking goofy as a young pup.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/2.8",
+            "exposure_time": "1/250",
+            "ISO": "1250",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "T003",
+        "date": "17 October 2020",
+        "day": 17,
+        "month": 10,
+        "year": 2020,
+        "file": "images/Teddy/TRI_4364-3.jpg",
+        "title": "Teddy's Graduation",
+        "description": "Teddy posing with his PetSmart instructor after Puppy Graduation.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/4",
+            "exposure_time": "1/125",
+            "ISO": "1600",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "T004",
+        "date": "1 November 2020",
+        "day": 1,
+        "month": 11,
+        "year": 2020,
+        "file": "images/Teddy/TRI_4391-1.jpg",
+        "title": "Teddy in his Crate",
+        "description": "Teddy laying in his bed in the crate.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/5.6",
+            "exposure_time": "1/25",
+            "ISO": "3200",
+            "focal_length": "86mm"
+        }
+    },
+    {
+        "id": "T005",
         "date": "20 May 2021",
         "day": 20,
         "month": 5,
         "year": 2021,
         "file": "images/Teddy/TRI_4914-3.jpg",
         "title": "Teddy with Allergies",
-        "description": "Teddy winking, but it was because he had allergies in his left eye."
+        "description": "Teddy winking, but it was because he had allergies in his left eye.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/2.8",
+            "exposure_time": "1/50",
+            "ISO": "1600",
+            "focal_length": "50mm"
+        }
     },
     {
-        "id": "T001",
+        "id": "T006",
         "date": "11 September 2021",
         "day": 11,
         "month": 9,
         "year": 2021,
         "file": "images/Teddy/TRI_6484.jpg",
         "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
+        "description": "Teddy staring at me while I laid in bed.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/1.8",
+            "exposure_time": "1/20",
+            "ISO": "1600",
+            "focal_length": "50mm"
+        }
     },
     {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T001",
-        "date": "11 September 2021",
-        "day": 11,
-        "month": 9,
-        "year": 2021,
-        "file": "images/Teddy/TRI_6484.jpg",
-        "title": "Purple Teddy",
-        "description": "Teddy staring at me while I laid in bed."
-    },
-    {
-        "id": "T002",
+        "id": "T007",
         "date": "11 September 2021",
         "day": 11,
         "month": 9,
         "year": 2021,
         "file": "images/Teddy/TRI_6495.jpg",
         "title": "Red Teddy",
-        "description": "Teddy looking at the passing cars, as the bright, neon lights shine on him."
+        "description": "Teddy looking at the passing cars, as the bright, neon lights shine on him.",
+        "keyword": ["Teddy"],
+        "settings": {
+            "f_stop": "f/1.8",
+            "exposure_time": "1/4",
+            "ISO": "3200",
+            "focal_length": "50mm"
+        }
     }
 ]

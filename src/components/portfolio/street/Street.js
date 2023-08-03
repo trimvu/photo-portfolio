@@ -2,8 +2,8 @@ import React from 'react'
 
 const Street = () => {
     return (
-        <div>
-            Street
+        <div className='page-height'>
+            Street - COMING SOON
         </div>
     )
 }

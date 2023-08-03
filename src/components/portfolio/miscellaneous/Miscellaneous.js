@@ -2,8 +2,8 @@ import React from 'react'
 
 const Miscellaneous = () => {
     return (
-        <div>
-            Miscellaneous
+        <div className='page-height'>
+            Miscellaneous - COMING SOON
         </div>
     )
 }

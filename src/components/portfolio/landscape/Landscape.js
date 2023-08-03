@@ -2,8 +2,8 @@ import React from 'react'
 
 const Landscape = () => {
     return (
-        <div>
-            Landscape
+        <div className='page-height'>
+            Landscape - COMING SOON
         </div>
     )
 }

@@ -1,0 +1,34 @@
+.contain-about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+}
+
+.about-me {
+    margin-left: auto;
+    margin-right: auto;
+    /* border-style: solid; */
+    /* border-radius: 20px; */
+
+    text-align: center;
+    justify-content: center;
+    width: 49%;
+}
+
+.me-pic {
+    margin-left: auto;
+    margin-right: auto;
+    /* border-style: solid; */
+    /* border-radius: 20px; */
+
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.me {
+    width: 50vw;
+}
+
