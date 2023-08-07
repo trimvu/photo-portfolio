@@ -1,0 +1,138 @@
+[
+    {
+        "id": "J001",
+        "date": "14 August 2019",
+        "day": 14,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0207.jpg",
+        "title": "Plane-view of Japanese city",
+        "description": "A overlook of a Japanese city from a plane-view heading towards NRT.",
+        "keyword": ["Japan 2019", "landscape"],
+        "settings": {
+            "f_stop": "f/8",
+            "exposure_time": "1/250",
+            "ISO": "200",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J002",
+        "date": "15 August 2019",
+        "day": 15,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0260.jpg",
+        "title": "Statue Butt",
+        "description": "A rearview image of a statue's rearend.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/8",
+            "exposure_time": "1/160",
+            "ISO": "160",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J003",
+        "date": "15 August 2019",
+        "day": 15,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0266.jpg",
+        "title": "Lights of Shinjuku City",
+        "description": "A long exposure shot of buildings and roads of Shinjuku City.",
+        "keyword": ["Japan 2019", "cityscape"],
+        "settings": {
+            "f_stop": "f/22",
+            "exposure_time": "5",
+            "ISO": "100",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J004",
+        "date": "16 August 2019",
+        "day": 16,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0312.jpg",
+        "title": "Music Boy",
+        "description": "A boy listening to music samples at a mall in Shinjuku City.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/2.8",
+            "exposure_time": "1/50",
+            "ISO": "200",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J005",
+        "date": "16 August 2019",
+        "day": 16,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0481.jpg",
+        "title": "Waiting to Cross",
+        "description": "City residents waiting at a crosswalk at an intersection.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/1.8",
+            "exposure_time": "1/100",
+            "ISO": "800",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J006",
+        "date": "16 August 2019",
+        "day": 16,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0520.jpg",
+        "title": "Japanese Lantern",
+        "description": "An image of a Japanese lantern hanging in an alleyway.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/2.5",
+            "exposure_time": "1/125",
+            "ISO": "640",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J007",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0525.jpg",
+        "title": "Fishermen at Fuji",
+        "description": "Fishermen fishing in a lake near Mt. Fuji.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/8",
+            "exposure_time": "1/400",
+            "ISO": "200",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J008",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0551.jpg",
+        "title": "Yellow Canoe",
+        "description": "A yellow canoe, overturned, near Mt. Fuji.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/4",
+            "exposure_time": "1/4000",
+            "ISO": "400",
+            "focal_length": "35mm"
+        }
+    }
+]
