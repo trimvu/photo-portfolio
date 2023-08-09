@@ -134,5 +134,39 @@
             "ISO": "400",
             "focal_length": "35mm"
         }
+    },
+    {
+        "id": "J009",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0558.jpg",
+        "title": "Flower, House, Mountain",
+        "description": "A garden of flowers, with houses and mountains in the background.",
+        "keyword": ["Japan 2019", "landscape"],
+        "settings": {
+            "f_stop": "f/8",
+            "exposure_time": "1/250",
+            "ISO": "400",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J010",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0577.jpg",
+        "title": "Vehicles and Paddles",
+        "description": "What seems to be an autoshop or paddle boat rental, with Mt. Fuji in the background.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/22",
+            "exposure_time": "1/60",
+            "ISO": "400",
+            "focal_length": "35mm"
+        }
     }
 ]
