@@ -168,5 +168,56 @@
             "ISO": "400",
             "focal_length": "35mm"
         }
+    },
+    {
+        "id": "J011",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0596.jpg",
+        "title": "Carry",
+        "description": "A Suzuki Carry truck.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/2.8",
+            "exposure_time": "1/200",
+            "ISO": "100",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J012",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0626.jpg",
+        "title": "Mt. Fuji",
+        "description": "Mt. Fuji in low visibility.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/22",
+            "exposure_time": "1/30",
+            "ISO": "400",
+            "focal_length": "35mm"
+        }
+    },
+    {
+        "id": "J013",
+        "date": "17 August 2019",
+        "day": 17,
+        "month": 8,
+        "year": 2019,
+        "file": "images/Japan2019/TRI_0704.jpg",
+        "title": "Tree Support",
+        "description": "A tree being supported up with Mt. Fuji in the background.",
+        "keyword": ["Japan 2019"],
+        "settings": {
+            "f_stop": "f/1.8",
+            "exposure_time": "1/2000",
+            "ISO": "1600",
+            "focal_length": "35mm"
+        }
     }
 ]
