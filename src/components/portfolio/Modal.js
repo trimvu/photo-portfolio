@@ -7,6 +7,8 @@ const Modal = ({ modalOpen, id, info, handleClick, index, images }) => {
 
   // console.log(modalOpen)
 
+  let j = images.length
+
   const [currentIndex, setCurrentIndex] = useState(index)
 
   const changeIndex = (newIndex) => {
@@ -56,10 +58,10 @@ const Modal = ({ modalOpen, id, info, handleClick, index, images }) => {
       </div>
 
       <div className='change-btn'>
-        <button className='left-btn' onClick={() => {changeIndex(currentIndex - 1)}}>
+        <button className='left-btn' onClick={() => {changeIndex((j + currentIndex - 1) % j)}}>
           <span>&lt;</span>{" "}
         </button>
-        <button className='right-btn' onClick={() => {changeIndex(currentIndex + 1)}}>
+        <button className='right-btn' onClick={() => {changeIndex((j + currentIndex + 1) % j)}}>
           <span>&gt;</span>
         </button>
       </div>

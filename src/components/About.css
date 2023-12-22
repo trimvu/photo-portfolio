@@ -4,31 +4,37 @@
     text-align: center;
     height: 50vh;
     display: flex;
+    flex-direction: column; /* Change flex direction to column for mobile */
 }
 
-.about-me {
-    margin-left: auto;
-    margin-right: auto;
-    /* border-style: solid; */
-    /* border-radius: 20px; */
-
-    text-align: center;
-    justify-content: center;
-    width: 49%;
-}
-
+.about-me,
 .me-pic {
     margin-left: auto;
     margin-right: auto;
-    /* border-style: solid; */
-    /* border-radius: 20px; */
-
     text-align: center;
     justify-content: center;
-    width: 50%;
+    width: 100%; /* Set width to 100% for mobile */
+
+    /* Optional: Add some spacing between 'about-me' and 'me-pic' on mobile */
+    margin-bottom: 10px;
+}
+
+.me-pic {
+    width: 100%; /* Set width to 100% for mobile */
 }
 
 .me {
-    width: 50vw;
+    width: 49vw;
 }
 
+/* Media query for mobile devices */
+@media only screen and (min-width: 600px) {
+    .contain-about {
+        flex-direction: row; /* Change flex direction to row for larger screens */
+    }
+
+    .about-me,
+    .me-pic {
+        width: 49%; /* Adjust width for larger screens */
+    }
+}

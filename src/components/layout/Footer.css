@@ -14,3 +14,23 @@
     color: white;
     margin: 5px 10px;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+    }
+
+    .icons {
+        margin: 0px 10px;
+    }
+}

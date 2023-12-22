@@ -15,3 +15,23 @@
 .contain-bg {
     height: 100vh;
 }
+
+@media screen and (max-width: 200px) {
+    #home-pg-bg {
+        max-height: 50vh;
+        max-width: 100%;
+        display: block;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translatey(-47px);
+        z-index: 1;
+        position: relative;
+        top: -70px;
+    }
+    
+    .contain-bg {
+        height: auto;
+    }
+}
