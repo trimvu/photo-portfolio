@@ -41,6 +41,7 @@ const About = () => {
                 <div className='me-pic'>
                     <img className='me' src='images/About/TRI_0517-2.jpg' alt='me' />
                 </div>
+                <br /><br /><br /><br /><br /><br /><br />
             </div>
         </div>
     )
